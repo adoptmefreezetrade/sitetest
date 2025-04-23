@@ -122,8 +122,19 @@ button:hover {
 }
 /* Youtube Logo Styling */
 .youtube img {
-    width: 120px; /* Or any smaller size you want */
-    height: auto; /* Keeps correct proportions */
-    border-radius: 10px; /* Optional: make edges rounded */
-    margin-bottom: 10px; /* Space below the image */
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    margin-right: 10px;
 }
+
+.youtube {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    font-size: 20px;
+    color: white;
+    gap: 5px; /* optional: smooth spacing between icon and text */
+}
+
