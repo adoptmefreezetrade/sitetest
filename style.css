@@ -1,0 +1,129 @@
+
+body {
+    background-color: #6F8FAF; /* CHANGED: Faded denim */
+    color: #ffffff;
+    font-family: 'Luckiest Guy', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #5c7b97; /* CHANGED: Slightly darker denim tone for container */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.2);
+    text-align: center;
+    width: 80%;
+    max-width: 500px;
+}
+
+h1 {
+    color: #ffffff; /* CHANGED: White header for contrast */
+    font-size: 26px;
+}
+
+textarea {
+    width: 100%;
+    height: 80px;
+    background: #89CFF0; /* CHANGED: Baby blue */
+    color: #000000; /* CHANGED: Black text for contrast */
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    resize: none;
+    font-family: Arial, sans-serif;
+}
+
+button {
+    background: #89CFF0; /* CHANGED: Baby blue */
+    color: #000000; /* CHANGED: Black text */
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+button:hover {
+    background: #73b5dc; /* CHANGED: Darker baby blue on hover */
+}
+
+.note {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #e6e6e6; /* CHANGED: Softer white note */
+}
+
+/* Discord section */
+.discord {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    font-size: 20px;
+    color: #CD201F;
+}
+
+.discord img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+/* Discord Join Button */
+#discordBtn {
+    background: #89CFF0; /* CHANGED */
+    color: #000000; /* CHANGED */
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-family: 'Luckiest Guy', cursive;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+/* White Glowing Outline */
+#discordBtn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white;
+    z-index: -1;
+}
+
+#discordBtn:hover {
+    background: #73b5dc; /* CHANGED */
+}
+
+/* Discord Logo Styling */
+.discord-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    object-fit: contain;
+}
+/* Youtube Logo Styling */
+.youtube img {
+    width: 120px; /* Or any smaller size you want */
+    height: auto; /* Keeps correct proportions */
+    border-radius: 10px; /* Optional: make edges rounded */
+    margin-bottom: 10px; /* Space below the image */
+}
